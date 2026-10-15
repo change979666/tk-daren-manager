@@ -25,7 +25,7 @@ A Windows desktop utility for importing TikTok creator lists from Excel/CSV, ded
 
 ### 方式二：从源码安装
 
-1. 安装 Python 3.6 或更高版本
+1. 安装 Python 3.8 或更高版本（依赖 pandas 1.4.x 要求 3.8+）
 2. 克隆或下载本项目代码
 3. 安装依赖包：
 
