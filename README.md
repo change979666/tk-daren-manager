@@ -1,5 +1,7 @@
 # TK达人管理系统
 
+A Windows desktop utility for importing TikTok creator lists from Excel/CSV, deduplicating usernames against persistent history, recording first-export times, and exporting batches of 50 usernames.
+
 用于整理 TK 达人表格数据的桌面工具，支持批量导入表格文件、自动检测重复的达人用户名，并按照每个文件 50 个达人的规格导出数据。
 
 ## 功能特点
