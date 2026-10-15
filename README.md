@@ -18,10 +18,10 @@ A Windows desktop utility for importing TikTok creator lists from Excel/CSV, ded
 
 ## 安装方式
 
-### 方式一：直接使用打包好的 exe 程序（推荐）
+### 方式一：从源码运行（当前仓库尚未发布预编译 Release）
 
-1. 从发布页面下载 `TK达人管理系统.exe` 文件
-2. 双击运行即可，无需安装 Python 或其他依赖
+1. 按下方“从源码安装”步骤安装依赖并运行；
+2. 如需本地打包 exe，可运行 `build_exe.py` 或参考 `TK达人管理系统.spec`（PyInstaller 配置）；打包产物仅在本地生成，未随仓库发布。
 
 ### 方式二：从源码安装
 
@@ -41,7 +41,7 @@ python main.py
 
 ## 使用方法
 
-1. 运行程序（双击 exe 文件或通过 Python 运行）
+1. 运行程序（通过 Python 运行；本地打包 exe 后可双击运行）
 2. 主要功能：
    - **导入表格**：点击"导入表格"按钮导入 TK 达人表格文件（支持 Excel 和 CSV 格式）
    - **自动检测重复**：程序会自动检测并标记重复的达人用户名
